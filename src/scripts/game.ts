@@ -9,11 +9,14 @@ const config: Phaser.Types.Core.GameConfig = {
   type: Phaser.AUTO,
   backgroundColor: '#ffffff',
   scale: {
-    parent: 'phaser-game',
+    parent: 'phaser',
     mode: Phaser.Scale.FIT,
     autoCenter: Phaser.Scale.CENTER_BOTH,
     width: DEFAULT_WIDTH,
     height: DEFAULT_HEIGHT
+  },
+  dom: {
+    createContainer: false
   },
   scene: [PreloadScene, MainScene],
   physics: {

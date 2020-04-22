@@ -8,6 +8,7 @@
     "allowUnreachableCode": false,
     "sourceMap": true,
     "strictPropertyInitialization": false,
-    "lib": ["dom", "es5", "esnext"]
+    "lib": ["dom", "es5", "esnext"],
+    "jsx": "react"
   }
 }
