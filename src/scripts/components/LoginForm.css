@@ -1,0 +1,26 @@
+.new-account {
+    background: rgb(223, 212, 212);
+    color: #555;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    }
+
+.new-account::before {
+    background-color: #cbcbcb;
+    content: "";
+    height: 2px;
+    margin: auto;
+    width: 100%;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    top: 0;
+}
+
+.new-account span {
+    background: inherit;
+    padding: 0 10px;
+    position: relative;
+    color: #999;
+}

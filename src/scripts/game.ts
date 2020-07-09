@@ -1,6 +1,9 @@
+// import 'bootstrap/dist/css/bootstrap.css';
+
 import 'phaser'
-import MainScene from './scenes/mainScene'
-import PreloadScene from './scenes/preloadScene'
+import { MainScene } from './scenes/mainScene';
+import PreloadScene from './scenes/preloadScene';
+import { NakamaPlugin } from "./plugins/Nakama";
 
 const DEFAULT_WIDTH = 1280
 const DEFAULT_HEIGHT = 720
@@ -17,6 +20,11 @@ const config: Phaser.Types.Core.GameConfig = {
   },
   dom: {
     createContainer: false
+  },
+  plugins: {
+    global: [
+        { key: 'Nakama', plugin: NakamaPlugin, start: true, mapping: 'nakama' }
+    ]
   },
   scene: [PreloadScene, MainScene],
   physics: {

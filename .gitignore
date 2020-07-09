@@ -2,3 +2,4 @@
 /dist
 /.cache
 /.vscode
+server/nakama/data/.cookie
