@@ -39,6 +39,7 @@ $ npm install
 $ npm start
 
 # For the server, use docker-compose
+$ cd server
 $ docker-compose up
 ```
 
