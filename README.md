@@ -9,6 +9,7 @@ This project uses <a href="https://www.typescriptlang.org/index.html" target="_b
   <a href="#how-to-use">How To Use</a> •
   <a href="#useful-links">Useful Links</a> •
   <a href="#license">License</a>
+  <a href="#references">References</a>
 </p>
 
 ---
@@ -16,7 +17,7 @@ This project uses <a href="https://www.typescriptlang.org/index.html" target="_b
 ## Key Features
 
 - Integration with Nakama server for:
-  - Authentication and USer Accounts
+  - Authentication and User Accounts
   - Friends
   - Groups and Clans
   - Notifications
@@ -52,7 +53,11 @@ $ docker-compose up
 - [Notes of Phaser 3](https://rexrainbow.github.io/phaser3-rex-notes/docs/site/index.html)
 - [Starter Template by Yannick Deubel](https://github.com/yandeu/phaser-project-template)
 
+## References
 
+ - https://github.com/mickeyren/treasurehunt
+ - https://github.com/kai-chu/brucelee
+ 
 ## License
 
 The MIT License (MIT) 2020 - [Christopher Johnston](https://github.com/ChristopherJohnston). Please have a look at the [LICENSE](LICENSE) for more details.
